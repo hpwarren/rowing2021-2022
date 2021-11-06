@@ -71,14 +71,19 @@ for df in df_list:
 print(' all data')    
 stats(yy)
 
-plt.ylim((-10,450))
+plt.ylim((-10,480))
 plt.ylim((150,350))
 plt.xlabel('Time (sec)')
 plt.ylabel('Watts')
 plt.title(f"{path} | num 2k's = {num_2ks} | target watts = {target}")
-ax.axhline(target)
-plt.tight_layout()
 
+ax.axvline(x=420, ymin=0, ymax=150/200)
+plt.text(420, 310, 'Goal 300w', va='center', horizontalalignment='center')
+
+ax.axhline(target)
+plt.text(478, target-10, f'{target}w', horizontalalignment='center')
+
+plt.tight_layout()
 plt.savefig(f'plot_{path}.png')
 plt.show()
 
