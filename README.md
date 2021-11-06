@@ -1,8 +1,9 @@
 
 ### Training for 2022 CRASH-B
 
-Before the last CRASH-B I could do 3x2k/3m at about 265 watts (1:49.7/7:18.8). The goal for this
-year is 3x2k/2m at 300 watts (1:45.3/7:01.2). The plan is work my way up from 210 watts.
+Before the CRASH-B in March 2021 I could do 3x2k/3m at about 265 watts (1:49.7/7:18.8). I did a
+6:55.3 (313 watts). The goal for this year is 3x2k/2m at 300 watts (1:45.3/7:01.2). A stretch goal!
+The plan is work my way up from 210 watts with LOTS of volume.
 
 ##### Week 3: 220 Watts
 
