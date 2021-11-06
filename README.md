@@ -4,8 +4,11 @@
 Before the CRASH-B in March 2021 I could do 3x2k/3m at about 265 watts (1:49.7/7:18.8). I did a
 6:55.3 (313 watts). 
 
-The training goal for this year is 3x2k/2m at 300 watts (1:45.3/7:01.2). A stretch goal!  The plan
-is work my way up from 210 watts with LOTS of volume. 
+The primary training goal for this year is 3x2k/2m at 300 watts (1:45.3/7:01.2). A stretch goal!
+The plan is work my way up from 210 watts with LOTS of volume.
+
+The secondary training goal is to row at a very consistent pace. The plots should show decreasing
+dispersion over time.
 
 Not sure what the CRASH-B target is yet. (300/265)*313 ~ 340 watts? This would be 1:41/6:44.
 
