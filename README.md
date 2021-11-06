@@ -1,5 +1,5 @@
 
-### Training for 2022 CRASH-B
+### Training for the 2022 CRASH-B
 
 Before the CRASH-B in March 2021 I could do 3x2k/3m at about 265 watts (1:49.7/7:18.8). I did a
 6:55.3 (313 watts). 
