@@ -29,8 +29,6 @@ year is 3x2k/2m at 300 watts (1:45.3/7:01.2). The plan is work my way up from 21
 
 ##### Week 1: 210 Watts
 
-![plot](plot_week01.png)
-
 | Date | Watts |
 | ---- | ----- |
 | 2021-10-24 | 210/210/210 |
@@ -43,4 +41,5 @@ year is 3x2k/2m at 300 watts (1:45.3/7:01.2). The plan is work my way up from 21
 | 2021-10-21 | 208/208/208 |
 | 2021-10-20 | 203/202/203 |
 
+![plot](plot_week01.png)
 
