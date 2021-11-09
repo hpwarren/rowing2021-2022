@@ -12,7 +12,7 @@ dispersion over time.
 
 Not sure what the CRASH-B target is yet. (300/265)*313 ~ 340 watts? This would be 1:41/6:44.
 
-##### Week 3: 220 Watts (15x2k)
+##### Week 3: 220 Watts (24x2k)
 
 | Date | Watts |
 | ---- | ----- |
