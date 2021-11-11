@@ -16,15 +16,9 @@ week = 1
 if len(sys.argv) > 1:
     week = int(sys.argv[1])
 
-if week == 1:
-    path = 'week01'
-    target = 210
-elif week == 2:
-    path = 'week02'
-    target = 215
-elif week == 3:
-    path = 'week03'
-    target = 220
+path = f'week{week:02d}'
+target = 210 + 5*(week-1)
+print(path, target)
 
 files = Path(path).glob('*.csv')
 files = sorted(list(files))
