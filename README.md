@@ -10,7 +10,7 @@ The plan is work my way up from 210 watts with LOTS of volume.
 The secondary training goal is to row at a very consistent pace. The plots should show decreasing
 dispersion over time.
 
-Not sure what the CRASH-B target is yet. (300/265)*313 ~ 340 watts? This would be 1:41/6:44.
+Not sure what the CRASH-B target is yet. (300/265)*313*0.95 ~ 340 watts? This would be 1:41/6:44.
 
 ##### Week 4: 225 Watts (3x2k)
 

@@ -11,6 +11,7 @@ def stats(w):
     std = np.std(w)
     p = 100*std/mean
     print(f' mean = {mean:6.1f} std = {std:6.1f} percent = {p:6.1f} %')
+    return mean, std, p
 
 week = 1
 if len(sys.argv) > 1:
@@ -53,7 +54,7 @@ for df in df_list:
     d = d[m]
     w = w[m]
 
-    stats(w)
+    s = stats(w)
     
     if yy is None:
         yy = w
@@ -69,13 +70,13 @@ plt.ylim((-10,480))
 plt.ylim((150,350))
 plt.xlabel('Time (sec)')
 plt.ylabel('Watts')
-plt.title(f"{path} | num 2k's = {num_2ks} | target watts = {target}")
+plt.title(f"{path} | num 2k's = {num_2ks} | target watts = {target} | $\sigma$ = {s[2]:0.1f}%")
 
 ax.axvline(x=420, ymin=0, ymax=150/200)
-plt.text(420, 310, 'Goal 300w', va='center', horizontalalignment='center')
+plt.text(420, 307, 'Goal 300w', va='center', ha='center')
 
 ax.axhline(target)
-plt.text(478, target-10, f'{target}w', horizontalalignment='center')
+plt.text(-10, target-7, f'{target}w', va='center', ha='center')
 
 plt.tight_layout()
 plt.savefig(f'plot_{path}.png')
