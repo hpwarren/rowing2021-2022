@@ -66,7 +66,7 @@ for df in df_list:
 print(' all data')    
 stats(yy)
 
-plt.ylim((-10,480))
+plt.xlim((-25,480))
 plt.ylim((150,350))
 plt.xlabel('Time (sec)')
 plt.ylabel('Watts')
