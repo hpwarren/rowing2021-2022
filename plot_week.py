@@ -64,7 +64,7 @@ for df in df_list:
     plt.scatter(t, w, s=12)
 
 print(' all data')    
-stats(yy)
+s = stats(yy)
 
 plt.xlim((-25,480))
 plt.ylim((150,350))
