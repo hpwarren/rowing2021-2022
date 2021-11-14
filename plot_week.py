@@ -13,6 +13,17 @@ def stats(w):
     print(f' mean = {mean:6.1f} std = {std:6.1f} percent = {p:6.1f} %')
     return mean, std, p
 
+if '--total' in sys.argv:
+    dirs = Path().cwd().glob('week*')
+    sum = 0
+    for d in dirs:
+        files = d.glob('*.csv')
+        files = sorted(list(files))
+        nfiles = len(files)
+        sum += nfiles
+        print(f'{d.name} {nfiles:4d} {nfiles*3:4d} {sum:4d} {sum*3:4d}')
+    exit()
+
 week = 1
 if len(sys.argv) > 1:
     week = int(sys.argv[1])
