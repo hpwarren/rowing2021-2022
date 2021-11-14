@@ -6,11 +6,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 import sys
 
-def stats(w):
+def stats(w, h):
     mean = np.mean(w)
     std = np.std(w)
     p = 100*std/mean
-    print(f' mean = {mean:6.1f} std = {std:6.1f} percent = {p:6.1f} %')
+    hr = np.median(h)
+    print(f' mean = {mean:6.1f} std = {std:6.1f} percent = {p:6.1f} % med HR = {hr}')
     return mean, std, p
 
 if '--total' in sys.argv:
@@ -45,37 +46,43 @@ print(f" total number of 2k's = {num_2ks}")
     
 fig, ax = plt.subplots(figsize=(10,4))
 
-yy = None
+ww, hh = None, None
 for df in df_list:
     t = df['Time (seconds)']
     d = df['Distance (meters)']
     w = df['Watts']
+    h = df['Heart Rate']
 
     t = t.to_numpy()
     d = d.to_numpy()
     w = w.to_numpy()
+    h = h.to_numpy()
 
     m = np.isfinite(w)
     t = t[m]
     d = d[m]
-    w = w[m]    
+    w = w[m]
+    h = h[m]
 
     m, = np.where((d < 2000) & (w >=150))
     t = t[m]
     d = d[m]
     w = w[m]
+    h = h[m]
 
-    s = stats(w)
+    s = stats(w, h)
     
-    if yy is None:
-        yy = w
+    if ww is None:
+        ww = w
+        hh = h
     else:
-        yy = np.append(yy, w)
+        ww = np.append(ww, w)
+        hh = np.append(hh, h)
 
     plt.scatter(t, w, s=12)
 
 print(' all data')    
-s = stats(yy)
+s = stats(ww, hh)
 
 plt.xlim((-25,480))
 plt.ylim((150,350))
