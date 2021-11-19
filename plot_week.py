@@ -16,6 +16,7 @@ def stats(w, h):
 
 if '--total' in sys.argv:
     dirs = Path().cwd().glob('week*')
+    dirs = sorted(list(dirs))
     sum = 0
     for d in dirs:
         files = d.glob('*.csv')
