@@ -14,12 +14,14 @@ Not sure what the CRASH-B target is yet. (300/265)x313x0.95 ~ 340 watts? This wo
 
 #### Summary
 
-39 sessions, 117x2k
+41 sessions, 123x2k
 
-##### Week 7: 235 Watts (6x2k)
+##### Week 7: 235 Watts (12x2k)
 
 | Date | Watts |
 | ---- | ----- |
+| 2021-12-05 | 241/240/242 |
+| 2021-12-04 | 240/240/240 |
 | 2021-12-02 | 240/240/240 |
 | 2021-12-01 | 240/240/240 |
 
