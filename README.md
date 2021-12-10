@@ -27,6 +27,8 @@ intensity while watching TV. Switched to Nx2k at 210 watts. Trying 5x.
 | 2021-12-08 | 213/212/214 |
 | 2021-12-08 | 211/211/210 |
 
+![plot](plot_week08.png)
+
 ##### Week 7: 235 Watts (12x2k)
 
 | Date | Watts |
