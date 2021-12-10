@@ -14,7 +14,18 @@ Not sure what the CRASH-B target is yet. (300/265)x313x0.95 ~ 340 watts? This wo
 
 #### Summary
 
-41 sessions, 123x2k
+44 sessions, 132x2k
+
+##### Week 8: 235 Watts (11x2k)
+
+Wanted to build some volume to meet the C2 Holiday Challenge. Tried 5ks, but they were low
+intensity while watching TV. Switched to Nx2k at 210 watts. Trying 5x.
+
+| Date | Watts |
+| ---- | ----- |
+| 2021-12-09 | 210/210/210/210/210 |
+| 2021-12-08 | 213/212/214 |
+| 2021-12-08 | 211/211/210 |
 
 ##### Week 7: 235 Watts (12x2k)
 

@@ -22,8 +22,13 @@ if '--total' in sys.argv:
         files = d.glob('*.csv')
         files = sorted(list(files))
         nfiles = len(files)
+        num_2ks = 0
+        for f in files:
+            df = pd.read_csv(f)
+            this_num = int(len(df)/200)
+            num_2ks += this_num
         sum += nfiles
-        print(f'{d.name} {nfiles:4d} {nfiles*3:4d} {sum:4d} {sum*3:4d}')
+        print(f'{d.name} {nfiles:4d} {num_2ks:4d} {sum:4d} {sum*3:4d}')
     exit()
 
 week = 1
@@ -31,18 +36,24 @@ if len(sys.argv) > 1:
     week = int(sys.argv[1])
 
 path = f'week{week:02d}'
-target = 210 + 5*(week-1)
+if week == 8:
+    target = 210
+else:
+    target = 210 + 5*(week-1)    
 print(path, target)
 
 files = Path(path).glob('*.csv')
 files = sorted(list(files))
 
 df_list = []
+num_2ks = 0
 for f in files:
     df = pd.read_csv(f)
+    this_num = int(len(df)/200)
+    num_2ks += this_num
+    print(f" num 2k's = {this_num}")
     df_list.append(df)
 
-num_2ks = 3*len(df_list)    
 print(f" total number of 2k's = {num_2ks}")
     
 fig, ax = plt.subplots(figsize=(10,4))
