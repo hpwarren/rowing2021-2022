@@ -42,6 +42,8 @@ elif week == 9:
     target = 245
 elif week == 10:
     target = 250
+elif week == 11:
+    target = 255    
 else:
     target = 210 + 5*(week-1)    
 print(path, target)
