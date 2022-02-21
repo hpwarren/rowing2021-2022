@@ -1,4 +1,14 @@
 
+#### Result
+
+The final six weeks of training did not go well, largely due to several family events. I did the
+CRASH-B at 6:58.4. This was a little higher than last year, but still sub-7 so I'll take it!
+
+In the final few weeks I switched to doing 2k's for time. I found these to be more difficult than I
+anticipated. I found it particularly hard to keep pace during the third 500m. During the race I did
+1:42.0, 1:46.8, 1:46.0, 1:43.6, which actually wasn't too bad. Still, I think I started the 2k too
+late and need to work them into my regular training. 
+
 ### Training for the 2022 CRASH-B
 
 Before the CRASH-B in March 2021 I could do 3x2k/3m at about 265 watts (1:49.7/7:18.8). I did a
@@ -14,14 +24,37 @@ Not sure what the CRASH-B target is yet. (300/265)x313x0.95 ~ 340 watts? This wo
 
 #### Summary
 
-55 sessions, 165x2k
+55 sessions, 185x2k
 
-##### Week 11: 255 Watts (4x2k)
+##### Week 13: 265 Watts (5x2k)
 
 | Date | Watts |
 | ---- | ----- |
+| 2022-01-15 | 265/255/245/235/201 | 
+| 2022-01-12 | 329/331/330/328/336 |
+
+##### Week 12: 260 Watts (10x2k)
+
+Starting this week I'm switching to "drop sets" where I drop the watts for each 2k in the set.
+
+| Date | Watts |
+| ---- | ----- |
+| 2022-01-10 | 331/329/330/330/300 | 
+| 2022-01-09 | 260/250/240/230/220 |
+| 2022-01-07 | 331/332/333/330/329 | 
+| 2022-01-05 | 260/250/240/230/200 |
+
+##### Week 11: 255 Watts (21x2k)
+
+| Date | Watts |
+| ---- | ----- |
+| 2022-01-03 | 250/240/230/220/210 |
+| 2022-01-02 | 255/255 |
+| 2022-01-01 | 260/250/240/220/200 |
+| 2021-12-31 | 240/230/210 |
+| 2021-12-31 | 255/255 |
 | 2021-12-30 | 255/255 |
-| 2021-12-28 | 255/255 |
+| 2021-12-29 | 255/255 |
 
 ![plot](plot_week11.png)
 
